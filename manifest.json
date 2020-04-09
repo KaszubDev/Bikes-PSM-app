@@ -14,12 +14,12 @@
 	"prefer_related_applications" : false,
 	"icons" : [
         {
-            "src": "bike_128",
+            "src": "bike_128.png",
             "sizes": "128x128",
             "type": "image/png"
         },
         {
-            "src": "bike_512",
+            "src": "bike_512.png",
             "sizes": "512x512",
             "type": "image/png"
         }
