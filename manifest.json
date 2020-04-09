@@ -3,7 +3,7 @@
 	"lang" : "en",
 	"name" : "Bicycle",
 	"scope" : "/Bikes-PSM-app/",
-	"display" : "browser",
+	"display" : "standalone",
 	"start_url" : "https://kaszubdev.github.io/Bikes-PSM-app/",
 	"short_name" : "Bicycle",
 	"theme_color" : "transparent",
@@ -12,7 +12,18 @@
 	"background_color" : "transparent",
 	"related_applications" : [],
 	"prefer_related_applications" : false,
-	"icons" : [],
+	"icons" : [
+        {
+            "src": "bike_128",
+            "sizes": "128x128",
+            "type": "image/png"
+        },
+        {
+            "src": "bike_512",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ],
 	"url" : "https://kaszubdev.github.io/Bikes-PSM-app/",
 	"generated" : "true"
 }
